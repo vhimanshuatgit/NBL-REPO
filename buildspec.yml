@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+  pre_build:
+    commands:
+      - echo Pre-build commands...
+  build:
+    commands:
+      - echo Building the application...
+      - find buildready.txt
+  post_build:
+    commands:
+      - echo Build completed on `date`
