@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "himginx",
-            "image": "246217239674.dkr.ecr.eu-west-1.amazonaws.com/vhimanshu/nbl/webservers@sha256:f4fc81c6077ec0727e83ad09416b9210c70c361a39751289de1592dd59f42aa3",
+            "image": "IMAGE1_NAME",
             "essential": true,
             "portMappings": [
                 {

@@ -12,6 +12,6 @@
     "launchType": "EC2",
     "schedulingStrategy": "REPLICA",
     "deploymentController": {
-        "type": "ECS"
+        "type": "CODE_DEPLOY"
     }
 }
