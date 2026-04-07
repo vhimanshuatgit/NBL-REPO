@@ -1,0 +1,17 @@
+{
+    "taskDefinition": "arn:aws:ecs:eu-west-1:246217239674:task-definition/HimNginx:3",
+    "cluster": "HimECSCluster",
+    "loadBalancers": [
+        {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-1:246217239674:targetgroup/TargetGroup1/d9238c13f47d1b4e",
+            "containerName": "himginx",
+            "containerPort": 80
+        }
+    ],
+    "desiredCount": 2,
+    "launchType": "EC2",
+    "schedulingStrategy": "REPLICA",
+    "deploymentController": {
+        "type": "ECS"
+    }
+}
